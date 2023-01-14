@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <meta property="og:url" content="https://easybatch.kro.kr/command/set.html">
+  <meta property="og:image" content="https://ifh.cc/g/cqoFWx.jpg">
+  <meta property="og:description" content="Easybatch로 쉽게set를 사용해보세요">
+  <title>Easybatch-set</title>
+</head>
+
+<body>
+  <h1 id='battitle'>Set</h1>
+  <div id="script">
+    <span id="batname"><b>set</b></span>은 변수와input기능을 합친것입니다. <br>
+    /a는 변수선언이고 /p는 input기능에 입력한값을 변수에 넣는것이다. <br>
+    그리고 변수는 %과%안에 변수이름을넣으면된다. <br>
+    <br>
+    <br>
+    <span id="com">명령어↓</span> <br>
+    ---------------------------------------------------------- <br>
+    <code>
+      rem set /a 사용 <br>
+      rem 상황:a라는변수에 1이라는값을넣음 <br>
+      set /a a = 1 <br>
+      echo %a% <br>
+      rem set /p 사용 <br>
+      rem 상황: 이름을입력하고 그이름을 출력 <br>
+      set /p name = 이름이 무엇입니까? <br>
+      echo 이름이%name%이군요! <br>
+    </code>
+  </div>
+  <p>
+    <button><a href="/index.html">홈으로 이동</a></button>
+  </p>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.title{
+  text-align: center;
+  line-height: 50%;
+}
+
+#en{
+  color: aqua;
+}
+#ko{
+  color: blue;
+}
+table,tr,td{
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px;
+}
+button{
+  background-color: white;
+  border: 10;
+  border-radius: 20px;
+}
+code{
+  border: 1px;
+}
+#battitle{
+  color: aqua;
+}
+#batname{
+  color: blue;
+}
+#com{
+  color: red;
+}
